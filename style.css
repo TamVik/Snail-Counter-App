@@ -1,0 +1,66 @@
+body {
+    max-width: 90%;
+    background-image: url("snails.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Amatic SC', cursive;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #9ef01a;
+    text-shadow: 0 0 3px black;
+}
+
+h2 {
+    margin-top: 0;
+    color: #ccff33;
+    text-shadow: 1px 0 0 black;
+    /* background-color: #004b23;
+    border-radius: 5px;  */
+    border-top: 2px solid #004b23;
+    border-bottom: 2px solid #004b23;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+p {
+    font-size: 2rem;
+    color: #f5b700;
+    text-shadow: 0 0 20px black;
+    border-top: 2px solid #004b23;
+    border-bottom: 2px solid #004b23;
+    text-shadow: 1px 0 0 black;
+
+}
+
+.accent-color {
+    color: #f4a259;
+}
+
+button {
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5rem;
+    padding: .25em 1.5em;
+    margin-bottom: 1em;
+    border: 2px solid #004b23;
+    border-radius: 5px;
+    color: #ccff33;
+    text-shadow: 0 0 3px black;
+    background-color: #008000;
+}
+
+button:hover,
+button:active {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    background-color: #004b23;
+}
